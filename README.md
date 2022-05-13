@@ -1,2 +1,2 @@
-# mfs-react
-Micro Frontend using React
+# mfs
+Micro Frontends
