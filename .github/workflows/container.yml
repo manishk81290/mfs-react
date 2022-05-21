@@ -33,6 +33,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Dependencies
         run: npm install
+      
+      - name: Build Project
         run: npm run build
 
       # Runs a set of commands using the runners shell
