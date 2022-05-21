@@ -17,6 +17,7 @@ jobs:
 
     steps:
       - uses: action/checkout@v2
+      
       - name: Install Dependencies and build the project
         run: npm install
         run: npm run build
