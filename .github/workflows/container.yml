@@ -47,7 +47,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
         run: |
-          echo ${#AWS_S3_BUCKET_NAME}
-          echo ${#AWS_ACCESS_KEY_ID}
-          echo ${#AWS_SECRET_ACCESS_KEY}
-          echo ${#AWS_DEFAULT_REGION}
+          echo ${AWS_S3_BUCKET_NAME}
+          echo ${AWS_ACCESS_KEY_ID}
+          echo ${AWS_SECRET_ACCESS_KEY}
+          echo ${AWS_DEFAULT_REGION}
